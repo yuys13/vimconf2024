@@ -1,1 +1,3 @@
 node_modules/
+/vhs/*.gif
+/vhs/*.go
