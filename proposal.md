@@ -2,7 +2,7 @@
 
 ## Title
 
-Vim meets Local LLM: Edit Text beyond the Speed of Though.
+Vim meets Local LLM: Edit Text beyond the Speed of Thought
 
 ## Abstract
 
