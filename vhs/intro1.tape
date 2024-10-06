@@ -93,4 +93,4 @@ Hide
 Escape
 Type ":wq" Enter
 
-Type "rm main.go" Enter
+Type "mv main.go intro1.go" Enter

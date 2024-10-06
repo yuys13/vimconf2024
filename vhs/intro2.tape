@@ -66,30 +66,16 @@ Set Height 900
 
 Hide
 
+Type "cp intro1.go main.go" Sleep 1s Enter
 Type "nvim -u init.lua main.go" Sleep 1s Enter
 
-Type "ipackage main" Enter Enter
-Type 'import "fmt"' Enter Enter Enter Enter
+Type "9jA"
 
-Type "func main() {" Enter
-Type "fizzBuzz(15)" Enter
-Type "}"
-Escape
-
-Type "4k"
-
-Type 'i// fizzBuzz prints numbers from 1 to a given number.' Enter
-Type '// For multiples of 15, it prints "FizzBuzz".' Enter
-Type '// For multiples of 3, it prints "Fizz".' Enter
-Type '// For multiples of 5, it prints "Buzz".' Enter
-Type '// Otherwise, it prints the number.' Enter
-Type@300ms "func "
 Show
-
-Sleep 5s
+Sleep 1s
 Hide
 
 Escape
 Type ":wq" Enter
 
-Type "rm main.go" Enter
+Type "mv main.go intro2.go" Enter

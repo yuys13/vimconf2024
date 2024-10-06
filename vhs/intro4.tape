@@ -71,7 +71,7 @@ Hide
 Type "cp intro3.go main.go" Sleep 1s Enter
 Type "nvim -u init.lua main.go" Sleep 1s Enter
 
-Type "21jA"
+Type "10G$%A"
 Show
 Sleep 1
 Hide
