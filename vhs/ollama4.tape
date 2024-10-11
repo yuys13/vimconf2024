@@ -69,5 +69,5 @@ Type '  "model": "llama3.2",' Enter
 Type '  "stream": false,' Enter
 Type '  "prompt":"Why is the sky blue?"' Enter
 Type "}' | jq .response" Enter
-Sleep 25s
+Sleep 30s
 
