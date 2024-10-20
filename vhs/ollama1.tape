@@ -60,9 +60,9 @@ Output ollama1.gif
 Require echo
 
 Set Shell "zsh"
-Set FontSize 24
-Set Width 1200
-Set Height 900
+Set FontSize 48
+Set Width 2200
+Set Height 600
 
 Hide
 

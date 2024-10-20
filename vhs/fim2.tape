@@ -60,7 +60,7 @@ Output fim2.gif
 Require echo
 
 Set Shell "zsh"
-Set FontSize 24
+Set FontSize 48
 Set Width 1200
 Set Height 900
 

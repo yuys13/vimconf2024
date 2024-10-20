@@ -60,11 +60,11 @@ Output ollama2.gif
 Require echo
 
 Set Shell "zsh"
-Set FontSize 24
-Set Width 1200
-Set Height 900
+Set FontSize 48
+Set Width 2200
+Set Height 600
 
-Type "ollama run llama3.2 'Why is the sky blue?'" Enter
+Type "ollama run llama3.2 'Why is the sky blue?'" Sleep 3s Enter
 
 Sleep 25s
 

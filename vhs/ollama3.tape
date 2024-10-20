@@ -60,13 +60,13 @@ Output ollama3.gif
 Require echo
 
 Set Shell "zsh"
-Set FontSize 24
+Set FontSize 48
 Set Width 1200
 Set Height 900
 
 Type "curl -s -N http://localhost:11434/api/generate -d '{" Enter
 Type '  "model": "llama3.2",' Enter
 Type '  "prompt":"Why is the sky blue?"' Enter
-Type "}' | jq .response" Enter
+Type "}' | jq .response" Sleep 3s Enter
 Sleep 25s
 
