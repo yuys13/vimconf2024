@@ -66,7 +66,7 @@ Set Height 900
 
 Type "curl -s -N http://localhost:11434/api/generate -d '{" Enter
 Type '  "model": "llama3.2",' Enter
-Type '  "prompt":"Why is the sky blue?"' Enter
+Type '  "prompt": "Why is the sky blue?"' Enter
 Type "}' | jq .response" Sleep 3s Enter
 Sleep 25s
 
