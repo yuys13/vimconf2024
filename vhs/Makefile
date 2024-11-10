@@ -6,7 +6,7 @@
 .tape.gif:
 	vhs <$<
 
-all: intro ollama fim
+all: intro ollama fim outro.gif
 
 intro: intro1.gif intro2.gif intro3.gif intro4.gif
 
@@ -21,6 +21,8 @@ intro2.gif: init.lua intro1.gif
 intro3.gif: init.lua intro2.gif
 
 intro4.gif: init.lua intro3.gif
+
+outro.gif: init.lua intro1.gif
 
 clean:
 	rm *.gif *.go
