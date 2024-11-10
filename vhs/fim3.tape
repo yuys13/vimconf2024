@@ -67,8 +67,8 @@ Set Height 900
 Type "curl -s http://localhost:11434/api/generate -d '{" Enter
 Type '  "model": "codellama:7b-code",' Enter
 Type '  "stream": false,' Enter
-Type '  "prompt": "def conpute_gcd(x, y):",' Enter
-Type '  "suffix": "return result"' Enter
+Type '  "prompt": "The quick brown fox",' Enter
+Type '  "suffix": "a lazy dog."' Enter
 Type "}' | jq -r .response" Enter
 Sleep 30s
 

@@ -64,6 +64,6 @@ Set FontSize 48
 Set Width 1200
 Set Height 900
 
-Type "ollama run codellama:7b-code '<PRE> def compute_gcd(x, y): <SUF>return result <MID>'" Enter
+Type "ollama run codellama:7b-code '<PRE>The quick brown fox <SUF>a lazy dog. <MID>'" Enter
 Sleep 15s
 
