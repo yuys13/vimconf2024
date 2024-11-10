@@ -1,24 +1,20 @@
 vim.opt.list = true
 
 vim.opt.listchars = {
-  tab = '¦-',
-  trail = '-',
-  nbsp = '+',
-  extends = '»',
-  precedes = '«',
+	tab = "¦-",
+	trail = "-",
+	nbsp = "+",
+	extends = "»",
+	precedes = "«",
 }
 
 vim.opt.number = true
 
-vim.opt.runtimepath:append(vim.fn.stdpath("data") .. "/lazy/plenary.nvim")
 vim.opt.runtimepath:append(vim.fn.stdpath("data") .. "/lazy/collama.nvim")
 
 local config = {
 	base_url = "http://localhost:11434/api/",
-	fim = {
-		model = "codellama:7b-code",
-		tokens = require("collama.preset.tokens").codellama,
-	},
+	model = "codellama:7b-code",
 }
 
 local augroup = vim.api.nvim_create_augroup("my_collama_augroup", { clear = true })
@@ -31,7 +27,7 @@ vim.api.nvim_create_autocmd({ "InsertEnter", "CursorMovedI", "TextChangedI" }, {
 	end,
 })
 -- auto cancel
-vim.api.nvim_create_autocmd({ "InsertLeave" }, {
+vim.api.nvim_create_autocmd({ "InsertLeave", "VimLeavePre" }, {
 	group = augroup,
 	callback = function()
 		require("collama.copilot").clear()
